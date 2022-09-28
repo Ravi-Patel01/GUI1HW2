@@ -1,2 +1,4 @@
 # GUI1HW2
-gui1 homework 2 repo
+access website at: https://ravi-patel01.github.io/GUI1HW2/
+
+access source code at: https://github.com/Ravi-Patel01/GUI1HW2
