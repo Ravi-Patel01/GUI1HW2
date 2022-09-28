@@ -13,7 +13,7 @@ div#wrapper {
 	min-width: 600px;
 	width: 80%;
 	margin: 10%;
-	margin-top: 2%;
+	margin-top: 30px;
 	background-color:#3399CC;
 	height: 100%;
 }
@@ -31,9 +31,8 @@ div#content ul {
 nav {
 	float: left;
 	overflow: hidden;
-	margin-right: 5%;
-	padding-right: 5%;
-	padding-left: 2%;
+	padding-right: 50px;
+	padding-left: 20px;
 }
 
 nav ul {
@@ -77,7 +76,7 @@ h1 {
 }
 
 div#content img {
-	padding-right: 4%;
+	padding-right: 40px;
 	float: left;
 }
 
@@ -95,9 +94,10 @@ h2 {
 }
 
 #content {
-	padding: 3%;
+	padding-left: 30px;
+	padding-top: 5px;
 	background-color: white;
-	margin-left: 23%;
+	margin-left: 170px;
 }
 
 dt {
@@ -105,8 +105,8 @@ dt {
 }
 
 footer {
-	padding: 3%;
-	margin-left: 23%;
+	padding: 30px;
+	margin-left: 170px;
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
