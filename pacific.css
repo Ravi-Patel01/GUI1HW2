@@ -1,14 +1,20 @@
+
+/* takes up full space of its block as opposed to only text */
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 
+/*make background of body specified color
+and make gradient background as well as specify font
+family*/
 body {
-	background-color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url(ptrbackground.jpg);
 	background-color: #00569f;
 }
-
+/*make wrapper have minimum width and make the width take up
+80% of screen space otherwise. add margin from everywhere 10%
+except for top which is 30px. add color for nav bar*/
 div#wrapper {
 	min-width: 600px;
 	width: 80%;
@@ -18,53 +24,65 @@ div#wrapper {
 	height: 100%;
 }
 
+/*make mentions of resort specified color and bolded*/
 span.resort {
 	color:#344873;
 	font-weight: bold;
 }
 
+/*make list use marker.gif as bullet points and push
+them to inside*/
 div#content ul {
 	list-style-image: url(marker.gif);
 	list-style-position: inside;
 }
 
+/*push everything to the right of the nav bar add padding
+for each side of the nav bar*/
 nav {
 	float: left;
-	overflow: hidden;
 	padding-right: 50px;
 	padding-left: 20px;
 }
 
+/*remove styling for nav bar list*/
 nav ul {
 	font-size: 1.2em;
 	list-style-type: none;
 	padding-left: 0;
 }
 
+/*specified color for nav bar, made bold, and removed underline*/
 nav a:visited {
 	color:#000033;
 	font-weight: bold;
 	text-decoration: none;
 }
 
+/*specified color for nav bar, made bold, and removed underline*/
 nav a:hover {
 	color:#000033;
 	font-weight: bold;
 	text-decoration: none;
 }
 
+/*specified color for nav bar, made bold, and removed underline*/
 nav a:active {
 	color:#000033;
 	font-weight: bold;
 	text-decoration: none;
 }
 
+/*specified color for nav bar, made bold, and removed underline*/
 nav a:link {
 	color:#000033;
 	font-weight: bold;
 	text-decoration: none;
 }
 
+/*made text color white, got rid of bottom margin, added padding
+for text, added one instance of sunset photo and placed it as
+far right as possible. added background color*/
 h1 {
 	color: white;
 	margin-bottom: 0;
@@ -75,24 +93,33 @@ h1 {
 	background-color: #000032;
 }
 
+/*added slight padding to push text to the right and pushed
+all text to the right of image*/
 div#content img {
 	padding-right: 40px;
 	float: left;
 }
 
+/*gave different color to "enjoy nature in luxury" text*/
 h2 {
 	color: #3399CC;
 }
 
+/*specified font for headers*/
 h1,
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
 
+/*shrunk contact text slightly*/
 #contact {
 	font-size: 90%;
 }
 
+/*added padding from the left to push away from nav bar
+added padding from top to push away from title added
+white background for everything that isnt the nav bar
+and gave a leftmargin to create space for the nav bar*/
 #content {
 	padding-left: 30px;
 	padding-top: 5px;
@@ -104,8 +131,12 @@ dt {
 	color: #000033;
 }
 
+/*add same left margin to match content but added slightly
+less padding to reflect the target image specified background
+color to be the same as content. and specified font family
+and italic font style*/
 footer {
-	padding: 30px;
+	padding: 20px;
 	margin-left: 170px;
 	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
