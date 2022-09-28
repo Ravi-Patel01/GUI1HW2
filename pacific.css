@@ -14,7 +14,7 @@ div#wrapper {
 	width: 80%;
 	margin: 10%;
 	margin-top: 2%;
-	background-color: white;
+	background-color:#3399CC;
 	height: 100%;
 }
 
@@ -29,6 +29,7 @@ div#content ul {
 }
 
 nav {
+	float: left;
 	overflow: hidden;
 	margin-right: 5%;
 	padding-right: 5%;
@@ -94,7 +95,9 @@ h2 {
 }
 
 #content {
-	padding-left: 5%;
+	padding: 3%;
+	background-color: white;
+	margin-left: 23%;
 }
 
 dt {
@@ -102,7 +105,9 @@ dt {
 }
 
 footer {
+	padding: 3%;
+	margin-left: 23%;
+	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
-	padding: 5%;
 	font-style: italic;
 }
